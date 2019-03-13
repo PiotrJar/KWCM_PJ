@@ -27,6 +27,9 @@ int main() {
 	double rctg=1/tan(M_PI/4);
 
 #endif
+
+
+
 	return 0;
 
 
