@@ -28,5 +28,5 @@ double degreemath::ctg(double degree) {
 //zamiana stopni na radiany: pi radianów = 180 stopni
 //return std::ctg(); //funkcja biblioteczna z piku <cmath>
 	double radian = degree *M_PI/180;
-	return std::tan(radian); //funkcja biblioteczna z piku <cmath>
+	return 1/std::tan(radian); //funkcja biblioteczna z piku <cmath>
 }
